@@ -1,8 +1,18 @@
 import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
 import Router from 'vue-router'
+import VueCarousel from 'vue-carousel'
+import Parallax from 'vue-parallaxy'
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
 import Home from './views/Home.vue'
 
 Vue.use(Router)
+Vue.use(BootstrapVue)
+Vue.use(VueCarousel)
+Vue.use(Parallax)
 
 export default new Router({
   mode: 'history',
